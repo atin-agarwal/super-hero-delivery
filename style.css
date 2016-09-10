@@ -1,0 +1,73 @@
+/* Styles go here */
+
+/*body {
+	background-image: url("https://lh3.googleusercontent.com/--yK7qZgHQz0/Voo7k5vwdhI/AAAAAAAAGE0/ACyeGkejsI8ZlqqcLaa074uyL4YwMtSYwCL0B/s1000-fcrop64=1,2f923232f98bfd20/TB_youtube_Smoothies.jpg");
+}*/
+
+.header-section-right {
+  margin-top: 4em;
+}
+
+#search-wrapper .search {
+  position: relative;
+}
+
+#search-wrapper .screen-reader {
+  left: -9999em;
+  position: absolute;
+}
+
+#search-wrapper #search-field {
+  width: 250px;
+  height: 28px;
+  font-size: 15px;
+  color: #333;
+  line-height: 18px;
+  padding: 5px 70px 5px 10px;
+  margin-left: 0;
+  background-color: #ededed;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+#search-wrapper #search-submit {
+  position: absolute;
+  top: 0;
+  height: 28px;
+  width: 60px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  margin-top: 0;
+  color: #fff;
+  background-color: #008DC8;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#search-results, #auto-complete-wrapper {
+  display: none;
+}
+
+.searchify-autocomplete {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.auto-complete-wrapper {
+  width: 250px;
+  background-color: #ededed;
+}
+
+.checkout {
+  padding: 12px 0;
+  border: 1px solid #fe532d;
+  font-size: 1.4em;
+  font-weight: 700;
+  border-radius: 0;
+  color: #fff;
+  background: #fe532d;
+  width: 10em;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tesco Shopping</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="http://direct.tescoassets.com/directuiassets/SiteAssets/NonSeasonal/en_GB/images/favicon.ico"/> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="https://lh4.googleusercontent.com/-R-IW-MJwbhA/AAAAAAAAAAI/AAAAAAAAFR0/eXPAUZ6HhHU/photo.jpg" alt="Tesco" title="Tesco" height="150" width="150"/>
+		</div>
+		<div id="search-wrapper" class="header-section-right col-md-6">
+		  <div class="search">
+			<div class="search-input">
+			  <label for="search-submit" class="screen-reader">Search</label>
+			  <input id="search-field" placeholder="Search" name="search" value="" type="text">
+			  <input id="search-submit" name="go-btn" value="Go" type="submit">
+			</div>
+		  </div>
+
+		  <div id="auto-complete-wrapper" class="auto-complete-wrapper">
+			<div class="m-searchify" id="searchify">
+			  <ul id="searchify-autocomplete" class="searchify-autocomplete">
+				<li class="autocomplete-item">
+				  <b class="link-highlight">camera</b>
+				</li>
+				<li class="autocomplete-item">
+				  <b class="link-highlight">camera</b> case
+				</li>
+				<li class="autocomplete-item">
+				  <b class="link-highlight">camera</b> bag
+				</li>
+				<li class="autocomplete-item">
+				  <b class="link-highlight">camera</b> batteries
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	</div>
+
+    <div id="search-results">
+      <h2>Search Results</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="http://direct.tescoassets.com/directuiassets/Merchandising/NonSeasonal/en_GB/banners/Responsive/vis_navs/CameraCamcorder_V1_digitalCam_270x161.jpg" alt="Digicam">
+            <p>Canon IXUS 285 HS 20.2 MP Compact Digital Camera Black</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="http://direct.tescoassets.com/directuiassets/Merchandising/NonSeasonal/en_GB/banners/Responsive/vis_navs/CameraCamcorder_V1_SLR_270x161.jpg" alt="Digicam">
+            <p>Canon IXUS 180 - 2.7 LCD Digital Compact Camera - Blue</p>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="http://direct.tescoassets.com/directuiassets/Merchandising/NonSeasonal/en_GB/banners/Responsive/vis_navs/CameraCamcorder_V1_HandyCam_270x161.jpg" alt="Digicam">
+            <p>Panasonic DMC-FT30 Camera Black 16.1MP 4xZoom 2.7LCD</p>
+          </a>
+        </div>
+      </div>
+      <form action="checkout.html">
+        <input id="basket-checkout-mini" title="Checkout Now" value="Checkout" class="checkout pull-right" type="submit">
+      </form>
+    </div>
+  </div>
+  
+</body>
+
+</html>
